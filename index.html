@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="style.css">
+    <script href = "form.js" defer> </script>
+</head>
+<body>
+<div class="page-container">
+    <img class="laptop-image" src="logo.jpg" alt="photo of a laptop">
+    <section class="sign-up-section">
+        <h1>Sign Up To Our Newsletter!</h1>
+        <form action="index.html" method="post">
+            <fieldset class="name"> 
+            <div class="container"> 
+            <label for ="first_name">First Name</label>
+            <input id = "first_name" type="text"  required>
+        </div>
+        <div class="container"> 
+            <label for ="last_name">Last Name</label>
+            <input id = "last_name" type="text" required> 
+        </div>
+        </fieldset>
+       
+
+        <fieldset class="contact-info">  
+            <div class="container"> 
+            <label for ="email">Email</label>
+            <input id = "email" type="email" required>
+        </div>
+        <div class="container"> 
+            <label for ="phone-number">Phone Number</label>
+            <input id = "phone-number" type="tel"  required>
+        </div>
+        </fieldset>
+
+        <fieldset class="password">
+            <div class="container">   
+            <label for ="password">Password:</label>
+            <input id = "password" type="password" required>
+        </div>
+        <div class="container"> 
+            <label for ="confirm-password">Confirm Password:</label>
+            <input id = "confirm-password" type="password"  required>
+        </div>
+        </fieldset>
+        <button class ="submit" type="submit">Create Account</button>
+
+        </form>
+        <div class="container">
+        <span class="already">Already have an account? </span><span class="log-in">Log in</span> 
+        </div>
+    </section>
+</div>
+    
+</body>
+</html>
