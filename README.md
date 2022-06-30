@@ -1,5 +1,5 @@
 # Sign-up-Form
-- 👨‍💻 See the live version of this project at **[Sign-Up-Form](https://matanbitton.github.io/Sign-up-Form/)**
+- 👨‍💻 See the live version of this project at **[Sign-Up-Form](https://matanbitton.github.io/Sign-up-Form/)** Not Optimized For Mobile Yet
 
 ## About The Project
 
